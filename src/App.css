@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.marker {
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.weatherPopUp{
+  border: 2px solid black;
+}
+
+.weatherTable{
+  border-collapse: collapse;
+}
+
+.weatherTable td, weatherTable th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.weatherTable tr{background-color: #f2f2f2;}
+
+.weatherTable tr:hover {background-color: #ddd;}
+
+.weatherTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding: 8px;
+  text-align: left;
+  background-color: lightskyblue;
+  color: white;
+}
+
